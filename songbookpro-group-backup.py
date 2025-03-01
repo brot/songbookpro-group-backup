@@ -38,7 +38,7 @@ def login(page: Page):
     page.wait_for_selector("#next").click()
     page.wait_for_load_state()
 
-    sleep(5)
+    sleep(10)
 
 
 def save_file(page: Page, artist: str, title: str, file_extension: str):
